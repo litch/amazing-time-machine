@@ -5,6 +5,7 @@ Without using any built in date or time functions, write a function or method th
 
 Usage
 =====
+<pre>
   >> require 'jltime'
   => true
   >> JLTime.add_minutes_to_time("12:15 AM", 0)
@@ -21,4 +22,4 @@ Usage
   ArgumentError: ArgumentError
   >> JLTime.add_minutes_to_time("11:99 AM", 10)
   ArgumentError: ArgumentError
-  
+</pre>  
